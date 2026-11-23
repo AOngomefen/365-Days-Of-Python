@@ -26,8 +26,8 @@ def place(x, y):
 
 def stars():
     for _ in range(140):
-        x = random.randomint(-385, 385)
-        y = random.randomint(-235, 235)
+        x = random.randint(-385, 385)
+        y = random.randint(-235, 235)
         t.goto(x,y)
         t.dot(random.randint(1, 3), "white")
 
